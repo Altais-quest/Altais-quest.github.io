@@ -487,6 +487,11 @@ partie grande image*/
 
 @media only screen and (max-width:675px){
 
+  .middleImg{
+    margin-top: 40%;
+    filter: blur(0px);
+  }
+
   .download{
     display: none;
   }
@@ -530,15 +535,16 @@ partie grande image*/
   }
 
   .grosText{
-    margin-top: 40%;
+    margin-top: 55%;
     font-size: 42px;
     width: max-content;
+    padding: 5px 30px;
   }
 
   .txtStudio{
     font-size: 15px;
     width: 100%;
-    top: 50%;
+    top: 40%;
   }
 
   .participants, .fonctions{
