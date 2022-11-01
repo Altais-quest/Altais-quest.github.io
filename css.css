@@ -244,6 +244,7 @@ partie grande image*/
   width: 500px;
   z-index: 2;
   transition: 0.5s;
+  padding-bottom: 10px;
 }
 
 .txtStudio > p{
