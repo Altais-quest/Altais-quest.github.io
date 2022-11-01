@@ -81,7 +81,7 @@ li:hover .ulContacts{
 }
 .ulContacts li{
   border-bottom: none;
-  height: 15px;
+  height: 25px;
 }
 .ulContacts a:hover{
   color: red;
