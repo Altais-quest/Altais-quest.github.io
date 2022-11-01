@@ -218,6 +218,13 @@ partie grande image*/
   z-index: 1;
 }
 
+.itchio{
+  position: relative;
+  left: 50%;
+  max-width: 90%;
+  transform: translate(-50%);
+}
+
 .txtStudio{
   font-size: 20px;
   font-family: calibri;
