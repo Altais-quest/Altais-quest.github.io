@@ -528,8 +528,8 @@ partie grande image*/
 @media only screen and (max-width:675px){
 
   .middleImg{
-    margin-top: 20%;
-    filter: blur(10px);
+    margin-top: 40%;
+    filter: blur(0px);
   }
 
   .download{
