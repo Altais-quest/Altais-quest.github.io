@@ -383,44 +383,6 @@ partie grande image*/
   color: red;
 }
 
-/*partie boutique (store.html)*/
-.divStore{
-  position: fixed;
-  top: 0;
-  left: 50%;
-  transform: translate(-50%);
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-}
-
-.txtStore{
-  font-size: 20px;
-  font-family: calibri;
-  color: white;
-  text-align: center;
-  position: absolute;
-  top: 0;
-  left: 0;
-  margin-top: 30%;
-  margin-left:50%;
-  margin-right:50%;
-  transform: translate(-50%,-50%);
-  background-color: black;
-  font-weight: lighter;
-  border-radius: 5px;
-  filter: drop-shadow(5px 5px 5px black);
-  width: 500px;
-  z-index: 2;
-  transition: 0.5s;
-  padding-bottom: 5px;
-}
-
-.txtStore > p{
-  padding: 20px;
-  letter-spacing: 0;
-}
-
 /*partie accueil (accueil.html)
 partie grande image*/
 
@@ -582,12 +544,6 @@ partie grande image*/
   }
 
   .txtStudio{
-    font-size: 15px;
-    width: 100%;
-    top: 40%;
-  }
-
-  .txtStore{
     font-size: 15px;
     width: 100%;
     top: 40%;
