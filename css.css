@@ -1,8 +1,13 @@
-
-body{
+body {
   margin: 0;
   padding: 0;
-  background:  linear-gradient(black 0%, black 25%,#111 50%, black 75%,#111 100%);
+  background: linear-gradient(
+    black 0%,
+    black 25%,
+    #111 50%,
+    black 75%,
+    #111 100%
+  );
   font-family: vivaldi;
   letter-spacing: 2px;
   font-weight: normal;
@@ -10,7 +15,7 @@ body{
 
 /*barre de menus*/
 
-.logo{
+.logo {
   z-index: 1000;
   position: fixed;
   width: 3.6%;
@@ -18,7 +23,7 @@ body{
   left: 1%;
 }
 
-.logoText{
+.logoText {
   font-size: 25px;
   color: white;
   z-index: 100;
@@ -28,18 +33,18 @@ body{
   font-family: papyrus;
   transition: 0.5s;
 }
-.logoText:hover{
+.logoText:hover {
   color: red;
   transition: 0.5s;
 }
-a{
+a {
   text-decoration: none;
   color: #fff;
 }
-a:active{
+a:active {
   color: red;
 }
-div > li{
+div > li {
   z-index: 4;
   position: relative;
   top: 20px;
@@ -49,7 +54,7 @@ div > li{
   float: left;
   margin-left: 30px;
 }
-.rubriques{
+.rubriques {
   position: absolute;
   left: 50%;
   display: flex;
@@ -58,16 +63,16 @@ div > li{
   justify-content: start;
   transform: translate(-50%);
 }
-li:hover{
+li:hover {
   height: 29px;
   border-bottom: 2px solid red;
 }
-.ulContacts{
+.ulContacts {
   display: none;
   z-index: 5;
 }
-li:hover .ulContacts{
-  display:inline-block;
+li:hover .ulContacts {
+  display: inline-block;
   position: absolute;
   top: 20px;
   left: 0px;
@@ -79,21 +84,21 @@ li:hover .ulContacts{
   list-style-type: none;
   border-radius: 5px;
 }
-.ulContacts li{
+.ulContacts li {
   border-bottom: none;
   height: 25px;
 }
-.ulContacts a:hover{
+.ulContacts a:hover {
   color: red;
 }
-.ulContacts a{
+.ulContacts a {
   padding: 10px 20px;
   font-size: 13px;
   position: relative;
   top: 7px;
 }
 
-.download{
+.download {
   height: 40px;
   width: 150px;
   text-align: center;
@@ -110,13 +115,13 @@ li:hover .ulContacts{
   transition: 0.5s;
 }
 
-.download:hover{
+.download:hover {
   transition: 0.5s;
   background-color: #111;
   color: white;
 }
 
-.android{
+.android {
   display: none;
   width: 10px;
   height: 10px;
@@ -127,12 +132,12 @@ li:hover .ulContacts{
   transition: 0.5s;
 }
 
-.android:hover{
+.android:hover {
   transition: 0.5s;
   background-color: #111;
   color: white;
 }
-.shape{
+.shape {
   z-index: 3;
   position: fixed;
   top: 0%;
@@ -146,7 +151,7 @@ li:hover .ulContacts{
 /*partie jeu (altais.html)
 partie grande image*/
 
-.middle{
+.middle {
   position: fixed;
   top: 0;
   left: 50%;
@@ -157,24 +162,28 @@ partie grande image*/
 }
 /*partie synopsis*/
 
-.divSynopsis{
+.divSynopsis {
   position: relative;
   margin-top: 10%;
   margin-bottom: 10%;
   width: 100%;
 }
 
-.textpart{
+.textpart {
   position: relative;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  background: linear-gradient(rgba(0, 0, 0,0) 0%, rgba(0, 0, 0,0.7) 7%, black 100%);
+  background: linear-gradient(
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.7) 7%,
+    black 100%
+  );
   z-index: 1;
   margin-top: 50%;
 }
 
-.txtSynopsis{
+.txtSynopsis {
   background: -webkit-linear-gradient(#eee, #eee);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -191,10 +200,9 @@ partie grande image*/
   z-index: 1;
 }
 
-
 /* partie presentation du jeu */
 
-.divPresentation{
+.divPresentation {
   position: relative;
   margin-top: 10%;
   margin-bottom: 10%;
@@ -202,7 +210,7 @@ partie grande image*/
   width: 100%;
 }
 
-.txtPresentation{
+.txtPresentation {
   background: -webkit-linear-gradient(#eee, #eee);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -218,14 +226,14 @@ partie grande image*/
   z-index: 1;
 }
 
-.itchio{
+.itchio {
   position: relative;
   left: 50%;
   max-width: 90%;
   transform: translate(-50%);
 }
 
-.txtStudio{
+.txtStudio {
   font-size: 20px;
   font-family: calibri;
   color: white;
@@ -234,9 +242,9 @@ partie grande image*/
   top: 0;
   left: 0;
   margin-top: 30%;
-  margin-left:50%;
-  margin-right:50%;
-  transform: translate(-50%,-50%);
+  margin-left: 50%;
+  margin-right: 50%;
+  transform: translate(-50%, -50%);
   background-color: black;
   font-weight: lighter;
   border-radius: 5px;
@@ -247,22 +255,22 @@ partie grande image*/
   padding-bottom: 10px;
 }
 
-.txtStudio > p{
+.txtStudio > p {
   padding: 20px;
   letter-spacing: 0;
 }
 
-/*partie plateforme*/ 
+/*partie plateforme*/
 
-.divPlateforme{
+.divPlateforme {
   display: flex;
   position: absolute;
   top: 0;
   left: 0;
   margin-top: 25%;
-  margin-left:50%;
-  margin-right:50%;
-  transform: translate(-50%,-50%);
+  margin-left: 50%;
+  margin-right: 50%;
+  transform: translate(-50%, -50%);
   background-color: black;
   border-radius: 5px;
   filter: drop-shadow(5px 5px 5px black);
@@ -270,19 +278,19 @@ partie grande image*/
   overflow: hidden;
 }
 
-.divPlateforme > a > img{
+.divPlateforme > a > img {
   width: 100px;
   height: 110px;
 }
 
-.divPlateforme > a{
+.divPlateforme > a {
   margin: 40px;
   margin-left: 0px;
   font-family: calibri;
   text-align: center;
 }
 
-.divPlateforme > a:hover{
+.divPlateforme > a:hover {
   font-family: calibri;
   text-align: center;
   color: red;
@@ -290,7 +298,7 @@ partie grande image*/
 
 /*partie equipe (noms et rôles)*/
 
-.divParticipants{
+.divParticipants {
   color: #fff;
   position: relative;
   display: flex;
@@ -299,7 +307,7 @@ partie grande image*/
   margin-bottom: 2%;
   width: 100%;
 }
-.participants{
+.participants {
   text-align: center;
   color: white;
   font-weight: bold;
@@ -310,7 +318,7 @@ partie grande image*/
   font-family: arial;
   width: 50%;
 }
-.fonctions{
+.fonctions {
   background: -webkit-linear-gradient(#eee, #eee);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -328,7 +336,7 @@ partie grande image*/
 }
 
 /*div crédits dans page crédits*/
-.divCredits{
+.divCredits {
   font-size: 20px;
   font-family: calibri;
   color: white;
@@ -345,17 +353,17 @@ partie grande image*/
   z-index: 2;
 }
 
-.divCredits > h1{
+.divCredits > h1 {
   font-size: 30px;
   margin: 30px;
 }
-.divCredits > p{
+.divCredits > p {
   font-size: 15px;
 }
 
 /*div privacy*/
 
-.divPrivacy{
+.divPrivacy {
   background-color: #111;
   position: relative;
   display: flex;
@@ -366,7 +374,7 @@ partie grande image*/
   height: 60px;
   font-family: papyrus;
 }
-.divPrivacy > p{
+.divPrivacy > p {
   line-height: 150%;
   text-align: center;
   color: white;
@@ -379,15 +387,14 @@ partie grande image*/
   letter-spacing: initial;
   z-index: 1;
 }
-.divPrivacy > p > a:hover{
+.divPrivacy > p > a:hover {
   color: red;
 }
 
 /*partie accueil (accueil.html)
 partie grande image*/
 
-
-.grosText{
+.grosText {
   font-size: 100px;
   color: white;
   text-align: center;
@@ -395,9 +402,9 @@ partie grande image*/
   top: 0;
   left: 0;
   margin-top: 25%;
-  margin-left:50%;
-  margin-right:50%;
-  transform: translate(-50%,-50%);
+  margin-left: 50%;
+  margin-right: 50%;
+  transform: translate(-50%, -50%);
   background-color: black;
   border-radius: 5px;
   filter: drop-shadow(5px 5px 5px black);
@@ -405,13 +412,13 @@ partie grande image*/
   width: 550px;
   transition: 0.5s;
 }
-.grosText:hover{
+.grosText:hover {
   background-color: red;
   color: #fff;
   transition: 0.5s;
 }
 
-.middleImg{
+.middleImg {
   position: relative;
   left: 50%;
   transform: translate(-50%);
@@ -421,7 +428,7 @@ partie grande image*/
 
 /* footer */
 
-.infos{
+.infos {
   position: absolute;
   left: 50%;
   transform: translatex(-50%);
@@ -434,7 +441,7 @@ partie grande image*/
   line-height: 20px;
 }
 
-.barreBas{
+.barreBas {
   width: 100%;
   height: 200px;
   position: relative;
@@ -486,72 +493,70 @@ partie grande image*/
   width: 105%;
 }
 
-
-@media only screen and (max-width:675px){
-
-  .middleImg{
+@media only screen and (max-width: 675px) {
+  .middleImg {
     margin-top: 40%;
     filter: blur(0px);
   }
 
-  .download{
+  .download {
     display: none;
   }
 
-  .android{
+  .android {
     display: block;
   }
 
-  .shape{
+  .shape {
     display: flex;
     flex-direction: column;
     align-items: center;
     min-height: 15%;
   }
 
-  .rubriques{
+  .rubriques {
     position: relative;
-    transform: translate(0,0);
+    transform: translate(0, 0);
     left: 0;
   }
 
-  .logoText{
+  .logoText {
     position: relative;
   }
 
-  .middle, .video{
+  .middle,
+  .video {
     margin-top: 20%;
   }
 
-  .textpart{
+  .textpart {
     margin-top: 75%;
   }
-  .divPresentation{
+  .divPresentation {
     margin-top: 25%;
   }
-  .txtPresentation{
+  .txtPresentation {
     font-size: 15px;
   }
-  .txtSynopsis{
+  .txtSynopsis {
     font-size: 15px;
   }
 
-  .grosText{
+  .grosText {
     margin-top: 55%;
     font-size: 42px;
     width: max-content;
     padding: 5px 30px;
   }
 
-  .txtStudio{
+  .txtStudio {
     font-size: 15px;
     width: 100%;
     top: 40%;
   }
 
-  .participants, .fonctions{
+  .participants,
+  .fonctions {
     font-size: 12px;
   }
-
-
 }
